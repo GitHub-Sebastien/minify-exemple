@@ -1,0 +1,17 @@
+{
+    "name": "minify-exemple",
+    "version": "1.0.0",
+    "description": "Premier javascript",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "minify": "node ./commande.js"
+    },
+    "author": "Sebastien",
+    "license": "MIT",
+    "dependencies": {
+        "imagemin": "^7.0.1",
+        "imagemin-jpegtran": "^6.0.0",
+        "imagemin-pngquant": "^8.0.0"
+    }
+}
